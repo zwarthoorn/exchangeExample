@@ -1,0 +1,10 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}SymfonyCon{% endblock %}
+
+{% block body %}
+    <h1>SymfonyCon Schedule</h1>
+    {% for session in sessions %}
+        <article id="session-{{ session.id }}">{% include 'session/session.html.twig' with {session:session} %}</article>
+    {% endfor %}
+{% endblock %}

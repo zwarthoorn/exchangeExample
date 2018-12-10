@@ -1,0 +1,16 @@
+App\Entity\Session:
+    session_1:
+          title: ' Modern application built from scratch: API Platform FTW'
+          summary: you had an awsome idea brand new business
+          author: Walter Wiesnekker
+          datetime: <(new DateTime('2018-12-07 14:00'))>
+    session_2:
+          title: make vue your home
+          summary: home of vuew
+          author: Walter Wiesnekker
+          datetime: <(new DateTime('2018-12-07 14:50'))>
+    session_{3..10}:
+          title: <sentence()>
+          summary: <paragraph()>
+          author: <name()>
+          datetime: <dateTimeBetween('2018-12-06 9:00', '2018-12-07 17:00')>
